@@ -9,7 +9,7 @@ public class UserAuthenticator {
 	}
 
 	public boolean authenticateUser(String username, String password) throws FailedToAuthenticateException {
-		return(this.authenticator.authenticateUser(username, password));
+		return (this.authenticator.authenticateUser(username, password));
 	}
 
 }
